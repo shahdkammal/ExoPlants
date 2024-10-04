@@ -68,8 +68,8 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/venus.jpg",
-          "topo": "/src/assets/textures/venus_topo.jpg"
+          "base": "/src/assets/textures/test.jpg",
+          "topo": "/src/assets/textures/beg51.jpg"
         }
       }
     },
