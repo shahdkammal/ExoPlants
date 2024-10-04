@@ -1,18 +1,9 @@
 {
   "name": "solarsystemjs",
   "version": "1.0.0",
-  "homepage": "https://github.com/sanderblue/solar-system-threejs",
-  "authors": [
-    "Sander Blue <william.a.blue@gmail.com>"
-  ],
-  "description": "The solar system modeled to scale with Three.js",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+
+  "description": "The Exoplanets system modeled to scale with Three.js",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
   "dependencies": {
     "twig.js": "~0.8.7",
     "jquery": "~2.1.4",
