@@ -14,14 +14,14 @@
     "mass": 1988500,
     "gravity": 274,
     "density": 1408,
-    "rotation Period": 609.12,
-    "distance From Parent": null,
-    "orbital Period": null,
-    "orbital Velocity": null,
-    "orbital Inclination": null,
-    "axial Tilt": null,
-    "mean Temperature": "5778 K",
-    "solar Constant": 1.365,
+    "rotationPeriod": 609.12,
+    "distanceFromParent": null,
+    "orbitalPeriod": null,
+    "orbitalVelocity": null,
+    "orbitalInclination": null,
+    "axialTilt": null,
+    "meanTemperature": "5778 K",
+    "solarConstant": 1.365,
     "composition": {
       "majorElements": [
         {
@@ -45,40 +45,25 @@
   "planets": [
     {
       "id": 1,
-      "name": "51 Pegasi b ",
-      "diameter": "271670 km",
-      "mass": "0.46 of Jupiters mass",
-      "gravity": 0.3295,
-      "radius": "1.27 x Jupiter (estimate)",
-      "orbital Radius": "0.0527 AU",
-      "orbital Period": "4.2 days",
-      "eccentricity": "0.01",
-      "orbital Inclination": "close to 80 degrees",
-      "temperature": "around 1,200 °C (1,500 K; 2,200 °F)",
-      "rings": false,
-      "satellites": [],
-      "_3d": {
-        "textures": {
-          "base": "/src/assets/textures/mercury.jpg",
-          "topo": "/src/assets/textures/mercury_topo.jpg"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "name": "KELT-9b",
-      "discovery year": 2017,
-      "type": "Gas Giant",
-      "discovery Method": "Transit",
-      "distance from Earth": "667 LY",
-      "diameter": "3.782 x Jupiter",
-      "mass": "2.88 x Jupiters",
-      "gravity": 2.1526,
-      "density": "0.53000 ± 0.00015 g/cm3",
-      "orbital Period": "1.5 days",
-      "orbital Radius": "0.03462 AU",
-      "orbital Inclination": "0.03462 AU",
-      "temperature": 10170,
+      "name": "51 Pegasi b",
+      "diameter": 143360,
+      "mass": 150.0,
+      "gravity": 20.0,
+      "density": 4100,
+      "rotationPeriod": null,
+      "lengthOfDay": null,
+      "distanceFromParent": 77600000,
+      "orbitalPeriod": 4.2,
+      "orbitalVelocity": 136.0,
+      "orbitalInclination": 9.0,
+      "axialTilt": null,
+      "orbitPositionOffset": null,
+      "meanTemperature": 1200,
+      "surfaceTemps": {
+        "min": 1000,
+        "mean": 1200,
+        "max": 1400
+      },
       "rings": false,
       "satellites": [],
       "_3d": {
@@ -88,60 +73,69 @@
         }
       }
     },
-    {
-      "id": 3,
-      "name": "K2-2016-BLG-0005L b",
-      "diameter": 2.23,
-      "mass": 1.1,
-      "Type": "Gas Giant",
-      "Discovery Method": "Microlensing",
 
-      "Discovery year": 2023,
-      "Distance from Earth": "16,960 LY",
-      "Gravity": 3.3775,
-      "Density": 5514,
-      "Orbital Period": "12.9 year",
-      "Orbital Radius": "4.16 AU",
-      "Temperature": "3300 K",
-      "Rings": false,
-      "satellites": [
-        {
-          "id": "3a",
-          "name": "Moon",
-          "diameter": 3476.2,
-          "mass": 0.07342,
-          "distanceFromParent": 384400,
-          "orbitalPeriod": 27.3,
-          "orbitalInclination": 21,
-          "gravity": 1.62,
-          "surfaceTemps": {
-            "min": -110,
-            "max": 130
-          },
-          "_3d": {
-            "textures": {
-              "base": "/src/assets/textures/earth/satellites/moon_1k.jpg",
-              "topo": "/src/assets/textures/earth/satellites/moon_topo_1k.jpg"
-            }
-          }
-        }
-      ],
-      "satellites_mech": [
-        {
-          "ISS": {
-            "distanceFromParent": 400
-          }
-        }
-      ],
+    {
+      "id": 2,
+      "name": "KELT-9b",
+      "diameter": 181000,
+      "mass": 2.88,
+      "gravity": 7.72,
+      "density": 500,
+      "rotationPeriod": null,
+      "lengthOfDay": null,
+      "distanceFromParent": 6700000,
+      "orbitalPeriod": 1.48,
+      "orbitalVelocity": 152.0,
+      "orbitalInclination": 88.8,
+      "axialTilt": null,
+      "orbitPositionOffset": null,
+      "meanTemperature": 4300,
+      "surfaceTemps": {
+        "min": 4000,
+        "mean": 4300,
+        "max": 4600
+      },
+      "rings": false,
+      "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/earth_4k.jpg",
-          "topo": "/src/assets/textures/earth_topo_4k.jpg",
-          "specular": "/src/assets/textures/earth_ocean_reflectance_10k.jpg",
-          "clouds": "/src/assets/textures/earth_clouds_active2.png"
+          "base": "/src/assets/textures/venus.jpg",
+          "topo": "/src/assets/textures/venus_topo.jpg"
         }
       }
     },
+
+    {
+      "id": 3,
+      "name": "K2-2016-BLG-0005L b",
+      "diameter": 143000,
+      "mass": 1.1,
+      "gravity": 24.79,
+      "density": 1326,
+      "rotationPeriod": null,
+      "lengthOfDay": null,
+      "distanceFromParent": 420000000,
+      "orbitalPeriod": 11.3,
+      "orbitalVelocity": 13.1,
+      "orbitalInclination": null,
+      "axialTilt": null,
+      "orbitPositionOffset": null,
+      "meanTemperature": -170,
+      "surfaceTemps": {
+        "min": -180,
+        "mean": -170,
+        "max": -160
+      },
+      "rings": false,
+      "satellites": [],
+      "_3d": {
+        "textures": {
+          "base": "/src/assets/textures/venus.jpg",
+          "topo": "/src/assets/textures/venus_topo.jpg"
+        }
+      }
+    },
+
     {
       "id": 4,
       "name": "Mars",
