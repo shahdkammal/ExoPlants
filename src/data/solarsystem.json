@@ -51,7 +51,7 @@
       "gravity": 20.0,
       "density": 4100,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay":100,
       "distanceFromParent": 77600000,
       "orbitalPeriod": 4.2,
       "orbitalVelocity": 136.0,
@@ -68,7 +68,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/test.jpg",
+          "base": "/src/assets/textures/testing222.jpg",
           "topo": "/src/assets/textures/beg51.jpg"
         }
       }
@@ -82,7 +82,7 @@
       "gravity": 7.72,
       "density": 500,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 36,
       "distanceFromParent": 6700000,
       "orbitalPeriod": 1.48,
       "orbitalVelocity": 152.0,
@@ -99,7 +99,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/venus.jpg",
+          "base": "/src/assets/textures/testting.jpeg",
           "topo": "/src/assets/textures/venus_topo.jpg"
         }
       }
@@ -113,11 +113,11 @@
       "gravity": 24.79,
       "density": 1326,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 10,
       "distanceFromParent": 420000000,
       "orbitalPeriod": 11.3,
       "orbitalVelocity": 13.1,
-      "orbitalInclination": null,
+      "orbitalInclination": 90,
       "axialTilt": null,
       "orbitPositionOffset": null,
       "meanTemperature": -170,
@@ -130,7 +130,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/venus.jpg",
+          "base": "/src/assets/textures/k22016.jpeg",
           "topo": "/src/assets/textures/venus_topo.jpg"
         }
       }
@@ -144,7 +144,7 @@
       "gravity": 8.2,
       "density": 1600,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 247,
       "distanceFromParent": 14300000,
       "orbitalPeriod": 10.3,
       "orbitalVelocity": 74.0,
@@ -161,7 +161,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/kepler_11b.jpg",
+          "base": "/src/assets/textures/kepler11B.jpg",
           "topo": "/src/assets/textures/kepler_11b_topo.jpg"
         }
       }
@@ -175,7 +175,7 @@
       "gravity": 9.12,
       "density": 5820,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 146,
       "distanceFromParent": 6000000,
       "orbitalPeriod": 6.1,
       "orbitalVelocity": 81.0,
@@ -192,7 +192,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/trappist_1e.jpg",
+          "base": "/src/assets/textures/TRAPPIST-1e_artist_impression_2018.png",
           "topo": "/src/assets/textures/trappist_1e_topo.jpg"
         }
       }
@@ -206,7 +206,7 @@
       "gravity": 16.3,
       "density": 5500,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 9240,
       "distanceFromParent": 149000000,
       "orbitalPeriod": 384.8,
       "orbitalVelocity": 29.8,
@@ -223,7 +223,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/kepler_452b.jpg",
+          "base": "/src/assets/textures/Kepler-452b_with_Earth.png",
           "topo": "/src/assets/textures/kepler_452b_topo.jpg"
         }
       }
@@ -237,7 +237,7 @@
       "gravity": 8.9,
       "density": 5500,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 6957,
       "distanceFromParent": 128000000,
       "orbitalPeriod": 289.9,
       "orbitalVelocity": 29.0,
@@ -254,7 +254,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/kepler_22b.jpg",
+          "base": "/src/assets/textures/keplerr22b.jpg",
           "topo": "/src/assets/textures/kepler_22b_topo.jpg"
         }
       }
@@ -268,7 +268,7 @@
       "gravity": 20.0,
       "density": 5900,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 43 ,
       "distanceFromParent": 1600000,
       "orbitalPeriod": 0.37,
       "orbitalVelocity": 230.0,
@@ -285,7 +285,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/k2_131b.jpg",
+          "base": "/src/assets/textures/k21331.jpg",
           "topo": "/src/assets/textures/k2_131b_topo.jpg"
         }
       }
@@ -299,7 +299,7 @@
       "gravity": 10.5,
       "density": 3600,
       "rotationPeriod": null,
-      "lengthOfDay": null,
+      "lengthOfDay": 576,
       "distanceFromParent": 89000000,
       "orbitalPeriod": 24.3,
       "orbitalVelocity": 30.2,
@@ -316,7 +316,7 @@
       "satellites": [],
       "_3d": {
         "textures": {
-          "base": "/src/assets/textures/toi_1231b.jpg",
+          "base": "/src/assets/textures/TOI-1231 b.jpg",
           "topo": "/src/assets/textures/toi_1231b_topo.jpg"
         }
       }
